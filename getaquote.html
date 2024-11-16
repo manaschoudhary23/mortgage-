@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Quote</title>
+    <link rel="stylesheet" href="index1.css">
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "7118022b-5fe3-4949-93fc-83eb341852e9";
+        (function () {
+            var d = document;
+            var s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html">
+                <div class="brand">Mortgage</div>
+            </a>
+            <h3>Let's get you the best deal on your mortgage</h3>
+        </div>
+    </header>
+
+    <!-- Step 1: Collect User Information -->
+    <section id="step1">
+        <form id="application-form">
+            <div class="question1">
+                <h3>What is your residency status in INDIA?</h3>
+                <label class="radio-container">I'm a India resident
+                    <input type="radio" name="residency_status" value="resident" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">I'm not a India resident
+                    <input type="radio" name="residency_status" value="not_resident" required>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="question2">
+                <h3>Who’s applying for the mortgage?</h3>
+                <p>Are you looking for a mortgage on your own or with someone else?</p>
+                <label class="radio-container">On my own
+                    <input type="radio" name="applying" value="own" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">With someone else
+                    <input type="radio" name="applying" value="someone_else" required>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="question3">
+                <h3>What’s your employment status?</h3>
+                <p>How do you earn your income?</p>
+                <label class="radio-container">Salaried
+                    <input type="radio" name="employment_status" value="salaried" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">Self-employed
+                    <input type="radio" name="employment_status" value="self_employed" required>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="question4">
+                <h3>What’s your monthly income?</h3>
+                <input type="text" name="monthly_income" required>
+            </div>
+
+            <div class="question5">
+                <h3>What’s your age?</h3>
+                <input type="text" name="age" required>
+            </div>
+
+            <div class="question6">
+                <h3>Where is your property?</h3>
+                <input type="text" name="property" required>
+            </div>
+
+            <div class="question7">
+                <h3>What is your property value?</h3>
+                <input type="text" name="property_value">
+            </div>
+
+            <div class="question8">
+                <h3>Have you ever defaulted on a loan or declared bankruptcy?</h3>
+                <label class="radio-container">Yes
+                    <input type="radio" name="loan_default" value="yes" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">No
+                    <input type="radio" name="loan_default" value="no" required>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="question9">
+                <h3>Do you have any existing mortgages or loans?</h3>
+                <label class="radio-container">Yes
+                    <input type="radio" name="existing_loans" value="yes" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">No
+                    <input type="radio" name="existing_loans" value="no" required>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="question10">
+                <h3>What is your current credit score?</h3>
+                <label class="radio-container">Excellent (750+)
+                    <input type="radio" name="credit_score" value="excellent" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">Good (700-749)
+                    <input type="radio" name="credit_score" value="good" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">Fair (650-699)
+                    <input type="radio" name="credit_score" value="fair" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">Poor (below 650)
+                    <input type="radio" name="credit_score" value="poor" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">Don't know
+                    <input type="radio" name="credit_score" value="dont_know" required>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="question11">
+                <h3>What loan term are you interested in?</h3>
+                <label class="radio-container">15 years
+                    <input type="radio" name="loan_term" value="15_years" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">20 years
+                    <input type="radio" name="loan_term" value="20_years" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">25 years
+                    <input type="radio" name="loan_term" value="25_years" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">30 years
+                    <input type="radio" name="loan_term" value="30_years" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">Other (please specify)
+                    <input type="text" name="other_loan_term" placeholder="Enter term">
+                </label>
+            </div>
+
+            <div class="btn">
+                <button type="submit" class="btn1">Continue</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Step 2: Collect Personal Information -->
+    <section id="step2" style="display:none;">
+        <div class="question1">
+            <h3>What's your full name?</h3>
+            <input type="text" name="full_name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="question2">
+            <h3>What's your phone number?</h3>
+            <input type="text" name="phone_number" placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="question3">
+            <h3>What's your email address?</h3>
+            <input type="text" name="email" placeholder="Enter your email address" required autocomplete="off">
+        </div>
+
+        <div class="btn">
+            <button class="btn1">Submit your application!</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Mortgage Broker. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Follow us on social media</a></li>
+            </ul>
+            <ul class="social-media">
+                <li><a href="#" class="social-icon"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" class="social-icon"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#" class="social-icon"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
